@@ -1,6 +1,6 @@
+const cors = require('cors')
 const express = require("express");
 const mongodb = require("mongodb");
-const cors = require('cors')
 require('dotenv').config()
 
 const mongoClient = mongodb.MongoClient;
